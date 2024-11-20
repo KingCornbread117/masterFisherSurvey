@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  background-image: url('file:///Users/Jonathan/Desktop/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+}
+
+p {
+  position: absolute;
+  top: 170px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  top: 500px;
+  position: relative;
+}

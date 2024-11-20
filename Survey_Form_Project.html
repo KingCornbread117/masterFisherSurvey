@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Fisher Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">
+      Master Fisher Survey Form
+    </h1>
+    <p id="description">This survey form is so that Master Fisher can improve his teaching.</p>
+    <p id="note">Note that all responses are anonymous.*</p>
+    <form id="survey-form" action="Submit.html" method="get">
+      <label for="name" id="name-label">First Name
+      <input id="name" type="text" required placeholder="First Name"/>
+      </label>
+
+ 
+
+      <label for="last-name" id="last-name-label">Last Name
+      <input id="last-name" type="text" required placeholder="Last Name"/>
+      </label>
+
+
+      <label for="email" id="email-label">Email
+      <input id="email" type="email" required placeholder="example@email.com"/>
+      </label>
+
+
+      <label for="number" id="number-label">Grade Level
+      <input id="number" type="number" min="9" max="12" step="1" required placeholder="9-12"/>
+      </label>
+
+
+      <label for="dropdown" id="dropdown-label">Which class of his do you attend?
+      <select id="dropdown" name="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">AP Geography</option>
+        <option value="2">AP World History</option>
+        <option value="3">Self-Study/Online</option>
+        <option value="4">Study Hall</option>
+      </select>
+      <legend>Would you like to continue to attend his classes?</legend>
+      <label for="continue_classes">
+        <input type="radio" name="continue_classes" value="yes" required> Yes
+      </label>
+      
+      <label for="continue_classes">
+        <input type="radio" name="continue_classes" value="yes" required> Yes</label>
+      <label>
+  <br>
+    <p>How would you like Master Fisher to improve in his teaching?</p>
+    <input type="checkbox" name="improvement" value="He is perfect, nothing can be improved."> He is perfect, nothing can be improved.
+  </label>
+  
+  
+  <label>
+    <input type="checkbox" name="improvement" value="He is perfect, nothing can be improved."> He is perfect, nothing can be improved.
+  </label>
+  
+
+  
+  <label>
+    <input type="checkbox" name="improvement" value="He is perfect, nothing can be improved."> He is perfect, nothing can be improved.
+  </label>
+  
+  
+  <label>
+    <input type="checkbox" name="improvement" value="He is perfect, nothing can be improved."> He is perfect, nothing can be improved.
+  </label>
+
+  <label>Anything else he can improve on?
+    <textarea id="anything_else" name="anything_else" rows="4" cols="30" placeholder="There is nothing else he can improve on."></textarea>
+  </label>
+  <button id="submit" type="submit">Submit</button>
+</form>
+    </form>
+  </body>
+</html>
